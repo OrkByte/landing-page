@@ -120,3 +120,30 @@ h2 {
     font-weight: 900;
     color: #1F2937;
 }
+
+.section-testimonial {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 0;
+}
+
+.testimonial-wrapper {
+    max-width: 750px;
+}
+
+.testimonial {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.testifier {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: 900;
+    margin: 36px 36px 0 0;
+}

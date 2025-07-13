@@ -10,6 +10,7 @@ div {
 }
 
 h1,
+h2,
 p,
 a {
     margin: 0;
@@ -60,7 +61,7 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 32px;
-    padding: 100px 0;
+    padding: 130px 0;
 }
 
 .header-content-left {
@@ -88,4 +89,34 @@ button {
     font-weight: bold;
     border-radius: 8px;
     border: none
+}
+
+.services-title-wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 44px 0;
+}
+
+.services-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding-bottom: 125px;
+}
+
+.service-item {
+    max-width: 170px;
+    text-align: center;
+    color: #7F8388;
+}
+
+.service-item img {
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }

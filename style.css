@@ -1,0 +1,10 @@
+/* Reset the box-model */
+div {
+  box-sizing: border-box;
+}
+/* Pass down the box-sizing property */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}

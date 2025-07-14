@@ -147,3 +147,33 @@ h2 {
     font-weight: 900;
     margin: 36px 36px 0 0;
 }
+
+.section-cta {
+    padding: 100px;
+}
+
+.cta-wrapper {
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 120px;
+    gap: 16px;
+    flex-grow: 0;
+}
+
+.cta-title {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.cta-text {
+    color: #d2d9e6;
+}
+
+button.cta {
+    border: 2px solid white;
+    flex: 0 0 auto;
+    align-self: center;
+}

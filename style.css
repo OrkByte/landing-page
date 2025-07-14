@@ -91,6 +91,11 @@ button {
     border: none
 }
 
+.header-content img {
+    border-radius: 10px;
+    align-self: center;
+}
+
 .services-title-wrapper{
     display: flex;
     justify-content: center;
